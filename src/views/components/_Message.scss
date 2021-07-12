@@ -1,0 +1,139 @@
+.self-message {
+  position: relative;
+  top: 1px;
+  margin-bottom: 35px;
+  .chat {
+    .text-muted {
+      margin-left: 63%;
+      font-size: 8px;
+    }
+
+    .cnt-message {
+      padding-left: 10px;
+      font-size: 10px;
+    }
+  }
+
+  .img-avatar {
+    width: 33px;
+    border-radius: 44px;
+    position: relative;
+    top: 3px;
+    margin-left: 141px;
+    left: 6px;
+  }
+
+  .message {
+    background: #ffe4e4;
+    display: block;
+    float: right;
+    position: relative;
+    left: -50px;
+    top: -36px;
+    border-radius: 7px;
+  }
+
+  .time {
+    position: relative;
+    left: 17px;
+    bottom: -2px;
+    font-size: 9px;
+  }
+}
+
+.message {
+  background: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgb(87 85 85 / 36%);
+  margin-left: 45px;
+  width: 122px;
+  position: relative;
+  bottom: 24px;
+  left: 10px;
+  border-radius: 7px;
+}
+
+.chat {
+  .text-muted {
+    margin-left: 63%;
+    font-size: 8px;
+  }
+
+  .cnt-message {
+    padding-left: 10px;
+    font-size: 10px;
+  }
+
+  img {
+    width: 33px;
+    position: relative;
+    top: 18px;
+    left: -24px;
+    border-radius: 50px;
+  }
+}
+
+.time {
+  position: relative;
+  left: 141px;
+  bottom: 14px;
+  font-size: 9px;
+}
+
+@media all and (min-width: 600px) {
+  .self-message {
+    position: relative;
+    top: -39px;
+    margin-bottom: 35px;
+    .message {
+      background: #ffe4e4;
+      display: block;
+      float: right;
+    }
+    .img-avatar {
+      position: relative;
+      top: 102px;
+      left: 62%;
+      width: 44px;
+    }
+    .time {
+      position: relative;
+      left: 20%;
+      bottom: 51px;
+      font-size: 11px;
+    }
+  }
+
+  .message {
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(87 85 85 / 36%);
+    margin-left: 102px;
+  }
+
+  .chat {
+    .text-muted {
+      margin-left: 63%;
+      font-size: 8px;
+    }
+
+    .cnt-message {
+      padding-left: 10px;
+      font-size: 10px;
+    }
+
+    img {
+      width: 45px;
+      border-radius: 44px;
+      position: relative;
+      top: 102px;
+      left: 12px;
+    }
+  }
+
+  .time {
+    position: relative;
+    left: 72%;
+    top: 46px;
+    font-size: 11px;
+    color: rgb(83 83 83 / 59%);
+  }
+}

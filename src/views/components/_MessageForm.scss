@@ -1,0 +1,48 @@
+.row {
+  .form-send {
+    .form-control {
+      margin: 10px 10px 10px 7px;
+      width: 54%;
+      height: 10px;
+      border-radius: 9px;
+      font-size: 10px;
+    }
+  }
+  .btn-send {
+    border: none;
+    float: right;
+    margin-right: 17px;
+    position: relative;
+    bottom: 25px;
+    height: 14px;
+    border-radius: 9px;
+    width: 49px;
+    font-size: 10px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .row {
+    .form-send {
+      .form-control {
+        margin: 28px 10px 10px 50px;
+        width: 73%;
+        height: 40px;
+        border-radius: 9px;
+        font-size: 14px;
+        padding-left: 8px;
+        font-weight: 800;
+        font-family: "Montserrat";
+        border: 1px solid rgba(83, 83, 83, 0.59);
+      }
+    }
+    .btn-send {
+      margin-right: 47px;
+      font-size: 14px;
+      bottom: 56px;
+      height: 46px;
+      width: 93px;
+      color: rgb(83 83 83 / 59%);
+    }
+  }
+}
