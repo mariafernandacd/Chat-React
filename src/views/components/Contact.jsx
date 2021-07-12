@@ -1,7 +1,7 @@
 import React from "react";
 import "./_Contact.scss";
 
-//componente creado para obtener cada contacto en la lista, junto con su ultimo mensaje
+//componente creado para obtener cada contacto en la lista, junto con su ultimo
 
 export const Contact = ({ index, contact, onOpenChat }) => {
   const lastMessage = contact.messages
