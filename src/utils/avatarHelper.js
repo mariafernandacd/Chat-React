@@ -1,3 +1,3 @@
 export const AVATAR = {
-    DEFAULT: "/images/avatar-2.png"
+    DEFAULT: "/images/avatar-4.png"
 }
