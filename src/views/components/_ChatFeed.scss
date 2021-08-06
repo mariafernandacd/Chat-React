@@ -1,19 +1,23 @@
 .chat {
-  background: rgb(255, 255, 255);
+  background: #eb4884b3;
   height: 100%;
   width: 50%;
+
 
   .toast-chat {
     padding-left: 13px;
     font-size: 10px;
-
+    color: #ffff;
     .me-auto {
       padding-left: 7px;
       position: relative;
       bottom: 10px;
+      font-size: 50px;
+     
     }
+
     .picture-profile {
-      width: 40px;
+      width: 63px;
       position: relative;
       border-radius: 44px;
       top: 8px;
@@ -22,73 +26,20 @@
   }
 
   .toast-body {
-    padding-left: 61px;
-    font-size: 10px;
+    padding-left: 86px;
+    font-size: 17px;
     position: relative;
-    bottom: 10px;
+    bottom: 12px;
     word-break: break-all;
+    color: #ffff;
   }
 
   .cnt-chat {
-    background: rgba(75, 74, 74, 0.17);
-    height: 82%;
-    overflow-y: scroll;
+    background-image: url(https://www.wallpapertip.com/wmimgs/45-452910_abstract-wallpaper-macbook-pro.jpg);
+    height: 78%;
+    overflow-y: auto;
+    width: 100%;
+    background-size: 100% 100%;
   }
 }
 
-@media all and (min-width: 600px) {
-  .chat {
-    .toast-chat {
-      padding-left: 5px;
-      font-size: 18px;
-
-      .me-auto {
-        padding-left: 20px;
-
-        font-family: "Montserrat";
-      }
-
-      img {
-        top: 14px;
-        width: 50px;
-        border-radius: 44px;
-      }
-    }
-
-    .toast-body {
-      padding-left: 65px;
-      font-size: 14px;
-      font-weight: 500;
-      font-family: "Montserrat";
-    }
-
-    .cnt-chat {
-      height: 75%;
-      overflow-y: scroll;
-
-      .text-muted {
-        left: 174px;
-        top: 30px;
-        font-size: 12px;
-      }
-    }
-
-    .message {
-      width: 470px;
-      top: 20px;
-      border-radius: 8px;
-      margin-right: 73px;
-      padding: 8px;
-      margin-top: 27px;
-    }
-
-    .cnt-message {
-      padding: 0px 10px 0px 10px;
-      font-size: 14px;
-      word-break: break-all;
-      padding-left: 20px;
-      font-family: "Montserrat";
-      color: rgb(83 83 83 / 59%);
-    }
-  }
-}

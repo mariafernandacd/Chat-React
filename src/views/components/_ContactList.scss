@@ -6,54 +6,32 @@
   height: 100%;
 
   .logo {
-    width: 50px;
+    width: 69px;
     position: relative;
-    top: 40px;
+    top: 65px;
     left: 23px;
   }
 
   .container-fluid {
-    background: linear-gradient(90deg, rgb(255 255 255 / 0%) -74%, red 47%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) -74%, #ff006a 47%);
 
     .header {
       height: 50px;
       margin: 0;
-      padding-bottom: 19px;
-      padding-left: 87px;
-      color: rgb(255, 255, 255);
-      font-size: 14px;
+      padding-bottom: 50px;
+      padding-left: 115px;
+      color: white;
+      font-size: 40px;
     }
   }
 
   .create {
     color: white;
-    text-align: center;
-    font-size: 14px;
+    font-size: 27px;
     background: none;
     border: none;
     font-family: "Montserrat", sans-serif;
-    margin-left: 40px;
-    margin-top: 15px;
-  }
-}
-
-@media all and (min-width: 600px) {
-  .toast-container {
-    .container-fluid {
-      .header {
-        font-size: 20px;
-        left: 62px;
-        bottom: 17px;
-        font-family: "Montserrat", sans-serif;
-      }
-    }
-
-    .create {
-      font-size: 18px;
-      font-weight: 800;
-      text-align: center;
-      margin-left: 35%;
-      padding: 44px;
-    }
+    margin-left: 38%;
+    margin-top: 30px;
   }
 }

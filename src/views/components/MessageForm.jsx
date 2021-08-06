@@ -16,7 +16,7 @@ export const MessageForm = ({ onSubmit }) => {
         <input
           type="text"
           value={textMessage}
-          placeholder="Type your message..."
+          placeholder=""
           className="form-control"
           name="nombre"
           onChange={(e) => setTextMessage(e.target.value)}
